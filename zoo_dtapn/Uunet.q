@@ -1,1 +1,1 @@
-control: AG ((!(deadlock) or P380_visited >= 1) and (P4_visited >= 1 or P380_visited = 0))
+control: AG ((!(deadlock) or P190_visited >= 1) and (P128_visited >= 1 or P190_visited = 0))

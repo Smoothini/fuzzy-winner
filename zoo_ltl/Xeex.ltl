@@ -58,66 +58,6 @@ switch 215 (in215s,out215s,out215s_2) [] {
  final {
  rule in215s => out215s_2 []
  }
-switch 239 (in239s,out239s,out239s_2) [] {
- rule in239s => out239s []
- }
- final {
- rule in239s => out239s_2 []
- }
-switch 263 (in263s,out263s,out263s_2) [] {
- rule in263s => out263s []
- }
- final {
- rule in263s => out263s_2 []
- }
-switch 287 (in287s,out287s,out287s_2) [] {
- rule in287s => out287s []
- }
- final {
- rule in287s => out287s_2 []
- }
-switch 311 (in311s,out311s,out311s_2) [] {
- rule in311s => out311s []
- }
- final {
- rule in311s => out311s_2 []
- }
-switch 335 (in335s,out335s,out335s_2) [] {
- rule in335s => out335s []
- }
- final {
- rule in335s => out335s_2 []
- }
-switch 359 (in359s,out359s,out359s_2) [] {
- rule in359s => out359s []
- }
- final {
- rule in359s => out359s_2 []
- }
-switch 383 (in383s,out383s,out383s_2) [] {
- rule in383s => out383s []
- }
- final {
- rule in383s => out383s_2 []
- }
-switch 407 (in407s,out407s,out407s_2) [] {
- rule in407s => out407s []
- }
- final {
- rule in407s => out407s_2 []
- }
-switch 431 (in431s,out431s,out431s_2) [] {
- rule in431s => out431s []
- }
- final {
- rule in431s => out431s_2 []
- }
-switch 455 (in455s,out455s,out455s_2) [] {
- rule in455s => out455s []
- }
- final {
- rule in455s => out455s_2 []
- }
 switch 22 (in22s,out22s_2) [] {
 
  }
@@ -178,71 +118,11 @@ switch 238 (in238s,out238s_2) [] {
  final {
  rule in238s => out238s_2 []
  }
-switch 262 (in262s,out262s_2) [] {
-
+switch 239 (in239s,out239s) [] {
+ rule in239s => out239s []
  }
  final {
- rule in262s => out262s_2 []
- }
-switch 286 (in286s,out286s_2) [] {
-
- }
- final {
- rule in286s => out286s_2 []
- }
-switch 310 (in310s,out310s_2) [] {
-
- }
- final {
- rule in310s => out310s_2 []
- }
-switch 334 (in334s,out334s_2) [] {
-
- }
- final {
- rule in334s => out334s_2 []
- }
-switch 358 (in358s,out358s_2) [] {
-
- }
- final {
- rule in358s => out358s_2 []
- }
-switch 382 (in382s,out382s_2) [] {
-
- }
- final {
- rule in382s => out382s_2 []
- }
-switch 406 (in406s,out406s_2) [] {
-
- }
- final {
- rule in406s => out406s_2 []
- }
-switch 430 (in430s,out430s_2) [] {
-
- }
- final {
- rule in430s => out430s_2 []
- }
-switch 454 (in454s,out454s_2) [] {
-
- }
- final {
- rule in454s => out454s_2 []
- }
-switch 478 (in478s,out478s_2) [] {
-
- }
- final {
- rule in478s => out478s_2 []
- }
-switch 479 (in479s,out479s) [] {
- rule in479s => out479s []
- }
- final {
- rule in479s => out479s []
+ rule in239s => out239s []
  }
 link  => in3s []
 link out3s => in23s []
@@ -265,26 +145,6 @@ link out191s => in215s []
 link out191s_2 => in214s []
 link out215s => in239s []
 link out215s_2 => in238s []
-link out239s => in263s []
-link out239s_2 => in262s []
-link out263s => in287s []
-link out263s_2 => in286s []
-link out287s => in311s []
-link out287s_2 => in310s []
-link out311s => in335s []
-link out311s_2 => in334s []
-link out335s => in359s []
-link out335s_2 => in358s []
-link out359s => in383s []
-link out359s_2 => in382s []
-link out383s => in407s []
-link out383s_2 => in406s []
-link out407s => in431s []
-link out407s_2 => in430s []
-link out431s => in455s []
-link out431s_2 => in454s []
-link out455s => in479s []
-link out455s_2 => in478s []
 link out22s_2 => in23s []
 link out46s_2 => in47s []
 link out70s_2 => in71s []
@@ -295,15 +155,5 @@ link out166s_2 => in167s []
 link out190s_2 => in191s []
 link out214s_2 => in215s []
 link out238s_2 => in239s []
-link out262s_2 => in263s []
-link out286s_2 => in287s []
-link out310s_2 => in311s []
-link out334s_2 => in335s []
-link out358s_2 => in359s []
-link out382s_2 => in383s []
-link out406s_2 => in407s []
-link out430s_2 => in431s []
-link out454s_2 => in455s []
-link out478s_2 => in479s []
 spec
-port=in3s -> (!(port=out479s) U ((port=in263s) & (TRUE U (port=out479s))))
+port=in3s -> (!(port=out239s) U ((port=in167s) & (TRUE U (port=out239s))))

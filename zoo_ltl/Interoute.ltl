@@ -58,66 +58,6 @@ switch 917 (in917s,out917s,out917s_2) [] {
  final {
  rule in917s => out917s_2 []
  }
-switch 1019 (in1019s,out1019s,out1019s_2) [] {
- rule in1019s => out1019s []
- }
- final {
- rule in1019s => out1019s_2 []
- }
-switch 1121 (in1121s,out1121s,out1121s_2) [] {
- rule in1121s => out1121s []
- }
- final {
- rule in1121s => out1121s_2 []
- }
-switch 1223 (in1223s,out1223s,out1223s_2) [] {
- rule in1223s => out1223s []
- }
- final {
- rule in1223s => out1223s_2 []
- }
-switch 1325 (in1325s,out1325s,out1325s_2) [] {
- rule in1325s => out1325s []
- }
- final {
- rule in1325s => out1325s_2 []
- }
-switch 1427 (in1427s,out1427s,out1427s_2) [] {
- rule in1427s => out1427s []
- }
- final {
- rule in1427s => out1427s_2 []
- }
-switch 1529 (in1529s,out1529s,out1529s_2) [] {
- rule in1529s => out1529s []
- }
- final {
- rule in1529s => out1529s_2 []
- }
-switch 1631 (in1631s,out1631s,out1631s_2) [] {
- rule in1631s => out1631s []
- }
- final {
- rule in1631s => out1631s_2 []
- }
-switch 1733 (in1733s,out1733s,out1733s_2) [] {
- rule in1733s => out1733s []
- }
- final {
- rule in1733s => out1733s_2 []
- }
-switch 1835 (in1835s,out1835s,out1835s_2) [] {
- rule in1835s => out1835s []
- }
- final {
- rule in1835s => out1835s_2 []
- }
-switch 1937 (in1937s,out1937s,out1937s_2) [] {
- rule in1937s => out1937s []
- }
- final {
- rule in1937s => out1937s_2 []
- }
 switch 3 (in3s,out3s_2) [] {
 
  }
@@ -178,71 +118,11 @@ switch 921 (in921s,out921s_2) [] {
  final {
  rule in921s => out921s_2 []
  }
-switch 1023 (in1023s,out1023s_2) [] {
-
+switch 1019 (in1019s,out1019s) [] {
+ rule in1019s => out1019s []
  }
  final {
- rule in1023s => out1023s_2 []
- }
-switch 1125 (in1125s,out1125s_2) [] {
-
- }
- final {
- rule in1125s => out1125s_2 []
- }
-switch 1227 (in1227s,out1227s_2) [] {
-
- }
- final {
- rule in1227s => out1227s_2 []
- }
-switch 1329 (in1329s,out1329s_2) [] {
-
- }
- final {
- rule in1329s => out1329s_2 []
- }
-switch 1431 (in1431s,out1431s_2) [] {
-
- }
- final {
- rule in1431s => out1431s_2 []
- }
-switch 1533 (in1533s,out1533s_2) [] {
-
- }
- final {
- rule in1533s => out1533s_2 []
- }
-switch 1635 (in1635s,out1635s_2) [] {
-
- }
- final {
- rule in1635s => out1635s_2 []
- }
-switch 1737 (in1737s,out1737s_2) [] {
-
- }
- final {
- rule in1737s => out1737s_2 []
- }
-switch 1839 (in1839s,out1839s_2) [] {
-
- }
- final {
- rule in1839s => out1839s_2 []
- }
-switch 1941 (in1941s,out1941s_2) [] {
-
- }
- final {
- rule in1941s => out1941s_2 []
- }
-switch 2039 (in2039s,out2039s) [] {
- rule in2039s => out2039s []
- }
- final {
- rule in2039s => out2039s []
+ rule in1019s => out1019s []
  }
 link  => in2s []
 link out2s => in101s []
@@ -265,26 +145,6 @@ link out815s => in917s []
 link out815s_2 => in819s []
 link out917s => in1019s []
 link out917s_2 => in921s []
-link out1019s => in1121s []
-link out1019s_2 => in1023s []
-link out1121s => in1223s []
-link out1121s_2 => in1125s []
-link out1223s => in1325s []
-link out1223s_2 => in1227s []
-link out1325s => in1427s []
-link out1325s_2 => in1329s []
-link out1427s => in1529s []
-link out1427s_2 => in1431s []
-link out1529s => in1631s []
-link out1529s_2 => in1533s []
-link out1631s => in1733s []
-link out1631s_2 => in1635s []
-link out1733s => in1835s []
-link out1733s_2 => in1737s []
-link out1835s => in1937s []
-link out1835s_2 => in1839s []
-link out1937s => in2039s []
-link out1937s_2 => in1941s []
 link out3s_2 => in101s []
 link out105s_2 => in203s []
 link out207s_2 => in305s []
@@ -295,15 +155,5 @@ link out615s_2 => in713s []
 link out717s_2 => in815s []
 link out819s_2 => in917s []
 link out921s_2 => in1019s []
-link out1023s_2 => in1121s []
-link out1125s_2 => in1223s []
-link out1227s_2 => in1325s []
-link out1329s_2 => in1427s []
-link out1431s_2 => in1529s []
-link out1533s_2 => in1631s []
-link out1635s_2 => in1733s []
-link out1737s_2 => in1835s []
-link out1839s_2 => in1937s []
-link out1941s_2 => in2039s []
 spec
-port=in2s -> (!(port=out2039s) U ((port=in1937s) & (TRUE U (port=out2039s))))
+port=in2s -> (!(port=out1019s) U ((port=in611s) & (TRUE U (port=out1019s))))

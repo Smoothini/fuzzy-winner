@@ -58,66 +58,6 @@ switch 1187 (in1187s,out1187s,out1187s_2) [] {
  final {
  rule in1187s => out1187s_2 []
  }
-switch 1319 (in1319s,out1319s,out1319s_2) [] {
- rule in1319s => out1319s []
- }
- final {
- rule in1319s => out1319s_2 []
- }
-switch 1451 (in1451s,out1451s,out1451s_2) [] {
- rule in1451s => out1451s []
- }
- final {
- rule in1451s => out1451s_2 []
- }
-switch 1583 (in1583s,out1583s,out1583s_2) [] {
- rule in1583s => out1583s []
- }
- final {
- rule in1583s => out1583s_2 []
- }
-switch 1715 (in1715s,out1715s,out1715s_2) [] {
- rule in1715s => out1715s []
- }
- final {
- rule in1715s => out1715s_2 []
- }
-switch 1847 (in1847s,out1847s,out1847s_2) [] {
- rule in1847s => out1847s []
- }
- final {
- rule in1847s => out1847s_2 []
- }
-switch 1979 (in1979s,out1979s,out1979s_2) [] {
- rule in1979s => out1979s []
- }
- final {
- rule in1979s => out1979s_2 []
- }
-switch 2111 (in2111s,out2111s,out2111s_2) [] {
- rule in2111s => out2111s []
- }
- final {
- rule in2111s => out2111s_2 []
- }
-switch 2243 (in2243s,out2243s,out2243s_2) [] {
- rule in2243s => out2243s []
- }
- final {
- rule in2243s => out2243s_2 []
- }
-switch 2375 (in2375s,out2375s,out2375s_2) [] {
- rule in2375s => out2375s []
- }
- final {
- rule in2375s => out2375s_2 []
- }
-switch 2507 (in2507s,out2507s,out2507s_2) [] {
- rule in2507s => out2507s []
- }
- final {
- rule in2507s => out2507s_2 []
- }
 switch 125 (in125s,out125s_2) [] {
 
  }
@@ -178,71 +118,11 @@ switch 1313 (in1313s,out1313s_2) [] {
  final {
  rule in1313s => out1313s_2 []
  }
-switch 1445 (in1445s,out1445s_2) [] {
-
+switch 1319 (in1319s,out1319s) [] {
+ rule in1319s => out1319s []
  }
  final {
- rule in1445s => out1445s_2 []
- }
-switch 1577 (in1577s,out1577s_2) [] {
-
- }
- final {
- rule in1577s => out1577s_2 []
- }
-switch 1709 (in1709s,out1709s_2) [] {
-
- }
- final {
- rule in1709s => out1709s_2 []
- }
-switch 1841 (in1841s,out1841s_2) [] {
-
- }
- final {
- rule in1841s => out1841s_2 []
- }
-switch 1973 (in1973s,out1973s_2) [] {
-
- }
- final {
- rule in1973s => out1973s_2 []
- }
-switch 2105 (in2105s,out2105s_2) [] {
-
- }
- final {
- rule in2105s => out2105s_2 []
- }
-switch 2237 (in2237s,out2237s_2) [] {
-
- }
- final {
- rule in2237s => out2237s_2 []
- }
-switch 2369 (in2369s,out2369s_2) [] {
-
- }
- final {
- rule in2369s => out2369s_2 []
- }
-switch 2501 (in2501s,out2501s_2) [] {
-
- }
- final {
- rule in2501s => out2501s_2 []
- }
-switch 2633 (in2633s,out2633s_2) [] {
-
- }
- final {
- rule in2633s => out2633s_2 []
- }
-switch 2639 (in2639s,out2639s) [] {
- rule in2639s => out2639s []
- }
- final {
- rule in2639s => out2639s []
+ rule in1319s => out1319s []
  }
 link  => in15s []
 link out15s => in131s []
@@ -265,26 +145,6 @@ link out1055s => in1187s []
 link out1055s_2 => in1181s []
 link out1187s => in1319s []
 link out1187s_2 => in1313s []
-link out1319s => in1451s []
-link out1319s_2 => in1445s []
-link out1451s => in1583s []
-link out1451s_2 => in1577s []
-link out1583s => in1715s []
-link out1583s_2 => in1709s []
-link out1715s => in1847s []
-link out1715s_2 => in1841s []
-link out1847s => in1979s []
-link out1847s_2 => in1973s []
-link out1979s => in2111s []
-link out1979s_2 => in2105s []
-link out2111s => in2243s []
-link out2111s_2 => in2237s []
-link out2243s => in2375s []
-link out2243s_2 => in2369s []
-link out2375s => in2507s []
-link out2375s_2 => in2501s []
-link out2507s => in2639s []
-link out2507s_2 => in2633s []
 link out125s_2 => in131s []
 link out257s_2 => in263s []
 link out389s_2 => in395s []
@@ -295,15 +155,5 @@ link out917s_2 => in923s []
 link out1049s_2 => in1055s []
 link out1181s_2 => in1187s []
 link out1313s_2 => in1319s []
-link out1445s_2 => in1451s []
-link out1577s_2 => in1583s []
-link out1709s_2 => in1715s []
-link out1841s_2 => in1847s []
-link out1973s_2 => in1979s []
-link out2105s_2 => in2111s []
-link out2237s_2 => in2243s []
-link out2369s_2 => in2375s []
-link out2501s_2 => in2507s []
-link out2633s_2 => in2639s []
 spec
-port=in15s -> (!(port=out2639s) U ((port=in131s) & (TRUE U (port=out2639s))))
+port=in15s -> (!(port=out1319s) U ((port=in131s) & (TRUE U (port=out1319s))))
